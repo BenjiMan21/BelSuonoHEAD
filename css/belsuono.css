@@ -220,6 +220,7 @@ a {
 
 .header__language-active {
     position: relative;
+    margin-left: 10px;
 }
 
 
