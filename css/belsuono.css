@@ -242,6 +242,14 @@ a {
     left: 0; 
 }
 
+.header__language-active:hover {
+    cursor: pointer;
+}
+
+.header__language-container span:hover {
+    cursor: pointer;
+}
+
 
 /* Language Selector Underline Animation End*/
 
