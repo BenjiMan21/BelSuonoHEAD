@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Trajan Pro 3";
+    src: url(../fonts/trajan-pro-3.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url(../fonts/avenirnextcyr-regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url(../fonts/avenirnextcyr-medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url(../fonts/avenirnextcyr-demi.ttf);
+    font-weight: 600;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter-regular.otf);
+    font-weight: 400;
+    font-style: normal;
+}
