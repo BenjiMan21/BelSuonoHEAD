@@ -166,6 +166,7 @@ a {
 } 
 
 .button_font {
+    padding-top: 10px;
     font-size: 24px;
     line-height: 28.8px;
     color: #828282;
@@ -190,6 +191,10 @@ a {
 
 }
 
+.header__language-active:hover {
+    color: #828282;
+}
+
 
 .header__language-container span {
     margin-top: 6px;
@@ -199,6 +204,10 @@ a {
 
 .header__language-container span.active {
     display: none;
+}
+
+.header__language-container span:hover {
+    color: #828282;
 }
 
 
@@ -480,6 +489,10 @@ a {
         border: none;
     }
 
+    .form-check-input:focus {
+        box-shadow: none;
+    }
+
 
 
     .form-check-input:not(checked)[type=radio] {
@@ -638,4 +651,22 @@ a {
     }
 
    
+}
+
+@media (max-width: 360px) {
+
+    .header__logo_mobile img {
+        width: 170px;
+        margin-left: 50px;
+    }
+
+    .swiper-button-next {
+        right: 5px;
+    }
+
+    .swiper-button-prev {
+        left: -5px;
+    }
+
+    
 }
