@@ -641,6 +641,14 @@ a {
 
 @media (max-width: 575px) {
 
+    .header__container {
+        height: 90px;
+    }
+
+    .header__menu_mobile {
+        top: 80px;
+    }
+
 
     .swiper-button-next {
         right: 20px;
